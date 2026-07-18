@@ -7,6 +7,25 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class ContactController {
+    @GetMapping("/")
+    public String home() {
+        return "index";
+    }
+
+    @GetMapping("/about")
+    public String about() {
+        return "about";
+    }
+
+    @GetMapping("/projects")
+    public String projects() {
+        return "project";
+    }
+
+    @GetMapping("/services")
+    public String services() {
+        return "service";
+    }
 
     @GetMapping("/contact-us")
     public String contactPage(){
