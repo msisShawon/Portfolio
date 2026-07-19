@@ -1,10 +1,12 @@
 package com.shifulportfolio;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
+@Slf4j
 @Controller
 public class ContactController {
     @GetMapping("/")
@@ -27,18 +29,15 @@ public class ContactController {
         return "service";
     }
 
-    @GetMapping("/contact-us")
+    @GetMapping("/contacts-us")
     public String contactPage(){
         return "contact";
     }
 
-    @PostMapping("contact-us")
-    public String submitContact(@RequestParam String user_name, @RequestParam String user_email,@RequestParam String message){
-        System.out.println("Contact Submitted");
-        System.out.println("Name: "+user_name);
-        System.out.println("Email: "+user_email);
-        System.out.println("Message: "+message);
-        return "contact";
+    @PostMapping("/submit-form")
+    public String submitContact(@ModelAttribute Contact contact){
+        log.info("Contact Form Submitted {}", contact);
+        return "redirect:/contacts-us";
     }
 
 

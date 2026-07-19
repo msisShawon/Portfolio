@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,7 +84,7 @@
                 </div>
             </div>
             <div class="contact-form">
-                <form id="contact-form" action="#" method="POST">
+                <form id="contact-form" th:action="@{/submit-form}" method="POST">
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" required name="user_name">
                     </div>
