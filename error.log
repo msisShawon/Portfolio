@@ -1,0 +1,14 @@
+2026-07-21T09:56:41.887+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] c.s.ShifulPortfolioApplication           : Starting ShifulPortfolioApplication using Java 25.0.3 with PID 18672 (D:\Programming_ac\Spring Noor Sir\ShifulPortfolio\target\classes started by Shiful Islam in D:\Programming_ac\Spring Noor Sir\ShifulPortfolio)
+2026-07-21T09:56:41.897+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] c.s.ShifulPortfolioApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-07-21T09:56:42.061+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-21T09:56:42.063+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-21T09:56:45.025+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-07-21T09:56:45.149+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-21T09:56:45.151+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-21T09:56:45.473+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3408 ms
+2026-07-21T09:56:46.269+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-21T09:56:47.404+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-07-21T09:56:47.418+06:00  INFO 18672 --- [ShifulPortfolio] [restartedMain] c.s.ShifulPortfolioApplication           : Started ShifulPortfolioApplication in 6.863 seconds (process running for 16.225)
+2026-07-21T10:13:03.081+06:00  INFO 18672 --- [ShifulPortfolio] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-21T10:13:03.101+06:00  INFO 18672 --- [ShifulPortfolio] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-21T10:13:03.136+06:00  INFO 18672 --- [ShifulPortfolio] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
